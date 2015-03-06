@@ -1,3 +1,5 @@
+#### Please note unzipped data file "household_power_consumption.txt" should be in your working directory if you run any of the r scripts
+
 ## Introduction
 
 This assignment uses data from
