@@ -7,7 +7,6 @@
 ###note unzipped data file "household_power_consumption.txt"
 ### should be in your working directory
 
-
 x<- read.table ("household_power_consumption.txt", sep=";", header=TRUE, na.strings="?") ##read data
 
 x$ydate<-strptime(x$Date, "%d/%m/%Y") ##create new date variable from character variable Date - don't need time to subset
